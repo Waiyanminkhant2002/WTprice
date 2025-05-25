@@ -1,0 +1,1033 @@
+[
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 27,
+    "newValue": 3,
+    "timestamp": "2025-05-20T15:07:37.636Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 3,
+    "newValue": 36,
+    "timestamp": "2025-05-20T15:07:38.296Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 16,
+    "newValue": 1,
+    "timestamp": "2025-05-20T15:11:30.153Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 1,
+    "newValue": 17,
+    "timestamp": "2025-05-20T15:11:30.740Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 0,
+    "newValue": 40,
+    "timestamp": "2025-05-20T15:11:40.448Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 40,
+    "newValue": 50,
+    "timestamp": "2025-05-20T15:20:08.553Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "over25",
+    "oldValue": 15,
+    "newValue": 60,
+    "timestamp": "2025-05-20T15:51:00.423Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "under25",
+    "oldValue": 11,
+    "newValue": 0,
+    "timestamp": "2025-05-20T15:57:59.078Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "over25",
+    "oldValue": 60,
+    "newValue": 0,
+    "timestamp": "2025-05-20T15:58:00.650Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "over50",
+    "oldValue": 51,
+    "newValue": 0,
+    "timestamp": "2025-05-20T15:58:00.650Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "over90",
+    "oldValue": 91,
+    "newValue": 0,
+    "timestamp": "2025-05-20T15:58:00.650Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "status",
+    "oldValue": "open",
+    "newValue": "close",
+    "timestamp": "2025-05-20T15:58:00.651Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "name",
+    "oldValue": "MT03",
+    "newValue": "MT",
+    "timestamp": "2025-05-20T15:58:04.900Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "name",
+    "oldValue": "MT",
+    "newValue": "MT31",
+    "timestamp": "2025-05-20T15:58:06.071Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 17,
+    "newValue": 4,
+    "timestamp": "2025-05-20T15:58:09.712Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 4,
+    "newValue": 4.9,
+    "timestamp": "2025-05-20T15:58:10.487Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 15,
+    "newValue": 4,
+    "timestamp": "2025-05-20T15:58:13.350Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 4,
+    "newValue": 4.8,
+    "timestamp": "2025-05-20T15:58:13.972Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 36,
+    "newValue": 5,
+    "timestamp": "2025-05-20T15:58:17.872Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 5,
+    "newValue": 5.1,
+    "timestamp": "2025-05-20T15:58:18.398Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 50,
+    "newValue": 5,
+    "timestamp": "2025-05-20T15:58:20.048Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 52,
+    "newValue": 5,
+    "timestamp": "2025-05-20T15:58:25.070Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 5,
+    "newValue": 5.2,
+    "timestamp": "2025-05-20T15:58:25.621Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over50",
+    "oldValue": 53,
+    "newValue": 5,
+    "timestamp": "2025-05-20T15:58:29.645Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over50",
+    "oldValue": 5,
+    "newValue": 5.3,
+    "timestamp": "2025-05-20T15:58:30.207Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over90",
+    "oldValue": 93,
+    "newValue": 5.4,
+    "timestamp": "2025-05-20T15:58:33.445Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 92,
+    "newValue": 5,
+    "timestamp": "2025-05-20T15:59:00.135Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 5,
+    "newValue": 5.3,
+    "timestamp": "2025-05-20T15:59:02.517Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 5.3,
+    "newValue": 5.35,
+    "timestamp": "2025-05-20T15:59:04.264Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 5.1,
+    "newValue": 5.2,
+    "timestamp": "2025-05-20T16:20:41.347Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 4.9,
+    "newValue": 6,
+    "timestamp": "2025-05-21T05:24:11.950Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 6,
+    "newValue": 7,
+    "timestamp": "2025-05-21T05:24:32.738Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 7,
+    "newValue": 9,
+    "timestamp": "2025-05-21T05:24:40.362Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 9,
+    "newValue": 5,
+    "timestamp": "2025-05-21T05:24:46.316Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5,
+    "newValue": 5.1,
+    "timestamp": "2025-05-21T05:24:48.889Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 5.2,
+    "newValue": 4,
+    "timestamp": "2025-05-21T05:25:05.984Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5.1,
+    "newValue": 5.2,
+    "timestamp": "2025-05-21T05:25:42.221Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5.2,
+    "newValue": 9,
+    "timestamp": "2025-05-21T05:25:52.841Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 9,
+    "newValue": 5,
+    "timestamp": "2025-05-21T05:27:48.109Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5,
+    "newValue": 5.2,
+    "timestamp": "2025-05-21T05:27:48.650Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 5,
+    "newValue": 3,
+    "timestamp": "2025-05-21T05:28:08.116Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5.2,
+    "newValue": 6,
+    "timestamp": "2025-05-21T05:28:17.165Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 4,
+    "newValue": 1,
+    "timestamp": "2025-05-21T05:28:41.049Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 1,
+    "newValue": 100,
+    "timestamp": "2025-05-21T05:28:42.353Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 100,
+    "newValue": 4,
+    "timestamp": "2025-05-21T05:28:49.648Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 6,
+    "newValue": 10,
+    "timestamp": "2025-05-21T05:36:57.314Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 10,
+    "newValue": 1,
+    "timestamp": "2025-05-21T05:39:29.614Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 4.8,
+    "newValue": 6,
+    "timestamp": "2025-05-21T05:59:36.138Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 6,
+    "newValue": 100,
+    "timestamp": "2025-05-21T06:00:00.652Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 100,
+    "newValue": 6,
+    "timestamp": "2025-05-21T06:00:06.588Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 6,
+    "newValue": 9,
+    "timestamp": "2025-05-21T06:02:57.731Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 9,
+    "newValue": 10,
+    "timestamp": "2025-05-21T06:03:18.233Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 10,
+    "newValue": 200,
+    "timestamp": "2025-05-21T06:09:08.431Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 200,
+    "newValue": 5,
+    "timestamp": "2025-05-21T07:00:30.370Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 4,
+    "newValue": 6,
+    "timestamp": "2025-05-21T07:17:43.882Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 6,
+    "newValue": 6.6,
+    "timestamp": "2025-05-21T07:17:44.569Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 5,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:26.726Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 6.6,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:29.228Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 3,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:30.945Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over50",
+    "oldValue": 5.3,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:32.240Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 5.2,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:33.321Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over90",
+    "oldValue": 5.4,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:34.514Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 5.35,
+    "newValue": 1,
+    "timestamp": "2025-05-21T07:19:35.908Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 1,
+    "newValue": 3,
+    "timestamp": "2025-05-21T07:29:45.618Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 3,
+    "newValue": 2,
+    "timestamp": "2025-05-21T07:29:54.282Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 2,
+    "newValue": 2.5,
+    "timestamp": "2025-05-21T07:29:54.914Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 2.5,
+    "newValue": 2.3,
+    "timestamp": "2025-05-21T07:35:44.179Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 2.3,
+    "newValue": 1,
+    "timestamp": "2025-05-21T08:19:21.301Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 1,
+    "newValue": 1.5,
+    "timestamp": "2025-05-21T08:19:21.896Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 1.5,
+    "newValue": 2,
+    "timestamp": "2025-05-21T08:22:22.540Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 1,
+    "newValue": 6,
+    "timestamp": "2025-05-21T08:22:27.445Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 6,
+    "newValue": 1,
+    "timestamp": "2025-05-21T08:28:28.253Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 1,
+    "newValue": 6,
+    "timestamp": "2025-05-21T08:30:58.756Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 2,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:29.950Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5,
+    "newValue": 5.4,
+    "timestamp": "2025-05-21T08:37:31.264Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:35.903Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:39.963Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over50",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:41.878Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:42.615Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:43.473Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over90",
+    "oldValue": 1,
+    "newValue": 5,
+    "timestamp": "2025-05-21T08:37:44.123Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 5.4,
+    "newValue": 2,
+    "timestamp": "2025-05-21T08:44:58.984Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 5,
+    "newValue": 3,
+    "timestamp": "2025-05-21T08:45:03.088Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 2,
+    "newValue": 10,
+    "timestamp": "2025-05-21T10:34:35.136Z"
+  },
+  {
+    "category": "B",
+    "id": "B1",
+    "field": "name",
+    "newValue": "M",
+    "timestamp": "2025-05-21T10:58:23.871Z"
+  },
+  {
+    "category": "B",
+    "id": "B2",
+    "field": "name",
+    "newValue": "",
+    "timestamp": "2025-05-21T10:58:23.876Z"
+  },
+  {
+    "category": "B",
+    "id": "B3",
+    "field": "name",
+    "newValue": "",
+    "timestamp": "2025-05-21T10:58:23.876Z"
+  },
+  {
+    "category": "B",
+    "id": "B1",
+    "field": "name",
+    "oldValue": "M",
+    "newValue": "MT03",
+    "timestamp": "2025-05-21T10:58:25.426Z"
+  },
+  {
+    "category": "B",
+    "id": "B2",
+    "field": "name",
+    "oldValue": "",
+    "newValue": "MT0",
+    "timestamp": "2025-05-21T10:58:27.762Z"
+  },
+  {
+    "category": "B",
+    "id": "B2",
+    "field": "name",
+    "oldValue": "MT0",
+    "newValue": "MT08",
+    "timestamp": "2025-05-21T10:58:28.636Z"
+  },
+  {
+    "category": "B",
+    "id": "B3",
+    "field": "name",
+    "oldValue": "",
+    "newValue": "MT)9",
+    "timestamp": "2025-05-21T10:58:30.823Z"
+  },
+  {
+    "category": "B",
+    "id": "B3",
+    "field": "name",
+    "oldValue": "MT)9",
+    "newValue": "MT09",
+    "timestamp": "2025-05-21T10:58:32.405Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 10,
+    "newValue": 0,
+    "timestamp": "2025-05-21T11:34:16.500Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over25",
+    "oldValue": 6,
+    "newValue": 0,
+    "timestamp": "2025-05-21T11:34:16.501Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 5,
+    "newValue": 0,
+    "timestamp": "2025-05-21T11:34:16.502Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over90",
+    "oldValue": 5,
+    "newValue": 0,
+    "timestamp": "2025-05-21T11:34:16.502Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "status",
+    "oldValue": "open",
+    "newValue": "close",
+    "timestamp": "2025-05-21T11:34:16.502Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 3,
+    "newValue": 4,
+    "timestamp": "2025-05-21T11:37:16.946Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 4,
+    "newValue": 10,
+    "timestamp": "2025-05-21T11:37:39.631Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "status",
+    "oldValue": "close",
+    "newValue": "open",
+    "timestamp": "2025-05-21T11:40:30.884Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 0,
+    "newValue": 11,
+    "timestamp": "2025-05-21T11:40:43.712Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "over50",
+    "oldValue": 0,
+    "newValue": 6,
+    "timestamp": "2025-05-21T11:40:43.712Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 11,
+    "newValue": 100,
+    "timestamp": "2025-05-21T11:43:22.809Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 100,
+    "newValue": 200,
+    "timestamp": "2025-05-21T11:48:56.872Z"
+  },
+  {
+    "category": "A",
+    "id": "A2",
+    "field": "under25",
+    "oldValue": 200,
+    "newValue": 211,
+    "timestamp": "2025-05-21T12:01:24.852Z"
+  },
+  {
+    "category": "H",
+    "id": "H1",
+    "field": "name",
+    "newValue": "IT01",
+    "timestamp": "2025-05-21T12:15:08.569Z"
+  },
+  {
+    "category": "H",
+    "id": "H2",
+    "field": "name",
+    "newValue": "",
+    "timestamp": "2025-05-21T12:15:08.569Z"
+  },
+  {
+    "category": "H",
+    "id": "H3",
+    "field": "name",
+    "newValue": "",
+    "timestamp": "2025-05-21T12:15:08.569Z"
+  },
+  {
+    "category": "H",
+    "id": "H2",
+    "field": "name",
+    "oldValue": "",
+    "newValue": "T",
+    "timestamp": "2025-05-21T12:15:10.473Z"
+  },
+  {
+    "category": "H",
+    "id": "H2",
+    "field": "name",
+    "oldValue": "T",
+    "newValue": "IT02",
+    "timestamp": "2025-05-21T12:15:12.727Z"
+  },
+  {
+    "category": "H",
+    "id": "H3",
+    "field": "name",
+    "oldValue": "",
+    "newValue": "IT0",
+    "timestamp": "2025-05-21T12:15:15.467Z"
+  },
+  {
+    "category": "H",
+    "id": "H3",
+    "field": "name",
+    "oldValue": "IT0",
+    "newValue": "IT03",
+    "timestamp": "2025-05-21T12:15:16.015Z"
+  },
+  {
+    "category": "H",
+    "id": "H1",
+    "field": "status",
+    "newValue": "open",
+    "timestamp": "2025-05-21T12:15:20.867Z"
+  },
+  {
+    "category": "H",
+    "id": "H2",
+    "field": "status",
+    "newValue": "open",
+    "timestamp": "2025-05-21T12:15:21.775Z"
+  },
+  {
+    "category": "H",
+    "id": "H3",
+    "field": "status",
+    "newValue": "open",
+    "timestamp": "2025-05-21T12:15:23.612Z"
+  },
+  {
+    "category": "A",
+    "id": "A-003",
+    "field": "name",
+    "oldValue": "",
+    "newValue": "m",
+    "timestamp": "2025-05-22T19:03:49.229Z"
+  },
+  {
+    "category": "A",
+    "id": "A-003",
+    "field": "name",
+    "oldValue": "m",
+    "newValue": "mt0",
+    "timestamp": "2025-05-22T19:03:50.283Z"
+  },
+  {
+    "category": "A",
+    "id": "A-003",
+    "field": "name",
+    "oldValue": "mt0",
+    "newValue": "mt07",
+    "timestamp": "2025-05-22T19:03:51.055Z"
+  },
+  {
+    "category": "A",
+    "id": "A-003",
+    "field": "under25",
+    "oldValue": 0,
+    "newValue": 300,
+    "timestamp": "2025-05-22T19:03:54.171Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "status",
+    "oldValue": "close",
+    "newValue": "open",
+    "timestamp": "2025-05-22T19:19:27.469Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over90",
+    "oldValue": 5,
+    "newValue": 5.5,
+    "timestamp": "2025-05-22T19:21:08.187Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "status",
+    "oldValue": "open",
+    "newValue": "close",
+    "timestamp": "2025-05-22T19:29:08.896Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "under25",
+    "oldValue": 10,
+    "newValue": 0,
+    "timestamp": "2025-05-22T19:29:12.060Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over25",
+    "oldValue": 5,
+    "newValue": 0,
+    "timestamp": "2025-05-22T19:29:12.060Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over50",
+    "oldValue": 5,
+    "newValue": 0,
+    "timestamp": "2025-05-22T19:29:12.060Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "over90",
+    "oldValue": 5.5,
+    "newValue": 0,
+    "timestamp": "2025-05-22T19:29:12.060Z"
+  },
+  {
+    "category": "A",
+    "id": "A3",
+    "field": "status",
+    "oldValue": "open",
+    "newValue": "close",
+    "timestamp": "2025-05-22T19:29:12.060Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "status",
+    "oldValue": "close",
+    "newValue": "open",
+    "timestamp": "2025-05-25T14:55:42.882Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "under25",
+    "oldValue": 0,
+    "newValue": 32,
+    "timestamp": "2025-05-25T14:55:46.900Z"
+  },
+  {
+    "category": "A",
+    "id": "A1",
+    "field": "under25",
+    "oldValue": 32,
+    "newValue": 323,
+    "timestamp": "2025-05-25T14:56:27.975Z"
+  }
+]
