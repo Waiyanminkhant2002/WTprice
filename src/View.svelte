@@ -20,6 +20,7 @@
     G: "XBOX",
     H: "APPLE",
     I: "Amazon",
+    J: "Visa"
   };
 
   const categories = Object.keys(categoryNames);
@@ -63,7 +64,7 @@
 
   async function fetchCategoryPrices(category) {
     try {
-      const res = await fetch(`http://localhost:3000/api/prices/${category}`);
+      const res = await fetch(`http://ec2-54-234-157-211.compute-1.amazonaws.com:3000/api/prices/${category}`);
       if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
       const data = await res.json();
 
@@ -107,7 +108,7 @@
   }
 
   function setupSocket() {
-    const socket = io("http://localhost:3000");
+    const socket = io("http://ec2-54-234-157-211.compute-1.amazonaws.com:3000");
     socket.on("pricesUpdated", (update) => {
       if (update.category === selectedCategory) {
         fetchCategoryPrices(selectedCategory);

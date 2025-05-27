@@ -1,14 +1,13 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
   import io from "socket.io-client";
-  import "./EditTable.css";
 
   let data = [];
   let selectedCategory = "A";
 
   const categoryNames = {
     A: "SEPHORA", B: "FOOTLOCKER", C: "NIKE", D: "VANILLA",
-    E: "VISA", F: "STEAM", G: "XBOX", H: "APPLE", I: "Amazon"
+    E: "VISA", F: "STEAM", G: "XBOX", H: "APPLE", I: "Amazon", J: "Visa"
   };
 
   const categories = Object.keys(categoryNames);
@@ -20,6 +19,8 @@
   let saving = false;
   let saveMessage = "";
   let saveError = false;
+
+  let socket;
 
   function formatDateTime(date) {
     return new Intl.DateTimeFormat("en-US", {
@@ -42,13 +43,13 @@
     }
   }
 
-  let socket;
   async function fetchPrices(category) {
     try {
-      const res = await fetch(`http://localhost:3000/api/prices/${category}`);
-      if (!res.ok) throw new Error("Failed to fetch prices");
-      data = await res.json();
-      data = data.map(item => ({ name: item.name || "", ...item }));
+      const res = await fetch(`http://ec2-54-234-157-211.compute-1.amazonaws.com:3000/api/prices/${category}`);
+      if (!res.ok) throw new Error(`Failed to fetch prices for category ${category}`);
+      const fetchedData = await res.json();
+
+      data = fetchedData.map(item => ({ name: item.name || "", ...item }));
 
       if (data.length > 0) {
         const exclude = ["id"];
@@ -61,6 +62,8 @@
           key,
           label: defaultLabels[key] || key
         }));
+      } else {
+        columns = [];
       }
 
       calculateMaxValues();
@@ -68,16 +71,9 @@
     } catch (e) {
       console.error("Error fetching prices:", e);
       data = [];
+      columns = [];
     }
   }
-
-  onMount(async () => {
-    socket = io("http://localhost:3000");
-    socket.on("connect", () => console.log("Connected:", socket.id));
-    socket.on("disconnect", () => console.warn("Socket disconnected"));
-    socket.on("pricesUpdated", () => fetchPrices(selectedCategory));
-    await fetchPrices(selectedCategory);
-  });
 
   function debounce(fn, delay) {
     let timer;
@@ -93,7 +89,7 @@
     saveError = false;
     try {
       const res = await fetch(
-        `http://localhost:3000/api/prices/${selectedCategory}`,
+        `http://ec2-54-234-157-211.compute-1.amazonaws.com:3000/api/prices/${selectedCategory}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -176,7 +172,7 @@
 
   function addColumn() {
     const newKey = prompt("Enter new column key (e.g. bonus10):");
-    if (!newKey || columns.some(col => col.key === newKey)) {
+    if (!newKey || columns.some(col => col.key === newKey) || !/^[a-zA-Z0-9_]+$/.test(newKey)) {
       alert("Invalid or duplicate column name.");
       return;
     }
@@ -189,8 +185,7 @@
 
   function removeRow(index) {
     if (confirm("Delete this row?")) {
-      data.splice(index, 1);
-      data = [...data];
+      data = data.filter((_, i) => i !== index);
       calculateMaxValues();
       debouncedSaveData();
     }
@@ -208,7 +203,68 @@
       debouncedSaveData();
     }
   }
+
+  onMount(() => {
+    socket = io("http://ec2-54-234-157-211.compute-1.amazonaws.com:3000");
+    socket.on("connect", () => console.log("Socket connected:", socket.id));
+    socket.on("disconnect", () => console.warn("Socket disconnected"));
+    socket.on("pricesUpdated", () => fetchPrices(selectedCategory));
+    fetchPrices(selectedCategory);
+  });
+
+  onDestroy(() => {
+    if (socket) socket.disconnect();
+  });
 </script>
+
+<style>
+  .highlight {
+    background-color: #d4edda;
+  }
+  .remove-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: red;
+  }
+  .status-select.open {
+    background-color: #e0f7fa;
+  }
+  .status-select.close {
+    background-color: #ffcdd2;
+  }
+  .success {
+    color: green;
+    margin-left: 1rem;
+  }
+  .error {
+    color: red;
+    margin-left: 1rem;
+  }
+  .timestamp {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .save-controls > button {
+    margin-right: 0.5rem;
+  }
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: center;
+  }
+  input[type="number"], input[type="text"], select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+</style>
 
 <div class="container">
   <h2>WELCOME FROM ADMIN PANEL</h2>
@@ -230,8 +286,8 @@
     <button on:click={saveData} disabled={saving}>
       {saving ? "Saving..." : "💾 Save"}
     </button>
-    <button on:click={addRow}>➕ Add Row</button>
-    <button on:click={addColumn}>➕ Add Column</button>
+    <button on:click={addRow} disabled={saving}>➕ Add Row</button>
+    <button on:click={addColumn} disabled={saving}>➕ Add Column</button>
     {#if saveMessage}
       <span class:success={!saveError} class:error={saveError}>{saveMessage}</span>
     {/if}
@@ -260,7 +316,11 @@
             {#each columns as col}
               {#if col.key === "status"}
                 <td>
-                  <select bind:value={row.status} on:change={(e) => handleStatusChange(e, i)} class="status-select {row.status}">
+                  <select
+                    bind:value={row.status}
+                    on:change={(e) => handleStatusChange(e, i)}
+                    class="status-select {row.status}"
+                  >
                     <option value="open">Open</option>
                     <option value="close">Close</option>
                   </select>
@@ -294,3 +354,4 @@
     </table>
   </div>
 </div>
+
