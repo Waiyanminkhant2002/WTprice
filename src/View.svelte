@@ -9,6 +9,7 @@
   let displayText = "";
   let bestDeals = {};
   let lastUpdated = "";
+  let socket;
 
   const categoryNames = {
     A: "SEPHORA",
@@ -26,6 +27,9 @@
   const categories = Object.keys(categoryNames);
   let isAuthenticated = false;
 
+  // Get backend URL from environment variable
+  const backendURL = import.meta.env.VITE_BACKEND_URL;
+
   onMount(() => {
     const authStatus = localStorage.getItem("authenticated");
     if (authStatus === "true") {
@@ -37,7 +41,10 @@
         fetchCategoryPrices(selectedCategory);
       }, 10 * 60 * 1000);
 
-      return () => clearInterval(interval);
+      return () => {
+        clearInterval(interval);
+        if (socket) socket.disconnect();
+      };
     } else {
       isAuthenticated = false;
     }
@@ -64,7 +71,7 @@
 
   async function fetchCategoryPrices(category) {
     try {
-      const res = await fetch(`http://ec2-54-234-157-211.compute-1.amazonaws.com:3000/api/prices/${category}`);
+      const res = await fetch(`${backendURL}/api/prices/${category}`);
       if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
       const data = await res.json();
 
@@ -108,7 +115,7 @@
   }
 
   function setupSocket() {
-    const socket = io("http://ec2-54-234-157-211.compute-1.amazonaws.com:3000");
+    socket = io(backendURL);
     socket.on("pricesUpdated", (update) => {
       if (update.category === selectedCategory) {
         fetchCategoryPrices(selectedCategory);
